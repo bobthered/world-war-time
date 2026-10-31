@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@import 'sveltewind/themes/palettes.css';
+@source '../node_modules/sveltewind/dist';
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+body {
+	margin: 0;
+	background: #f5f5f4;
+	color: #1c1917;
+	font-family: system-ui, sans-serif;
+}
